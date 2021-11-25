@@ -12,6 +12,7 @@ import Modal from "../Modal/Modal";
 const App = () => {
 
     const {data,isLoading,isError,error} = useGetImages(urlImages);
+    console.log(data)
 
     const [id,setId] = useState(null);
     const [isModal,setIsModal] = useState(false);
@@ -26,6 +27,9 @@ const App = () => {
     }
 
 
+    if(isError){
+        return <h1>Error: {error.message}</h1>
+    }
 
     return (
         <>

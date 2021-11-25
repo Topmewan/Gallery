@@ -21,3 +21,28 @@
     width: 90%;
     overflow: auto;
 }
+
+::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+
+@media screen and (max-width: 1000px){
+    .modal__comments{
+        height: 300px;
+        max-height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .modal__comments{
+        height: 200px;
+        max-height: 300px;
+    }
+
+    .modal__comments h1{
+        font-size: 15px;
+    }
+
+}

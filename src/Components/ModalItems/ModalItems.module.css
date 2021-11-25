@@ -10,3 +10,18 @@
     z-index: 10;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 1000px){
+    .wrapper__modal{
+        display: block;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .wrapper__modal{
+        display: block;
+        height: auto;
+
+    }
+}

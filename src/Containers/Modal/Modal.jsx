@@ -29,6 +29,8 @@ const Modal = ({id,closeModal,isModal}) => {
                             photo={urls.regular}
                             closeModal={closeModal}
                             isLoading={isLoading}
+                            isError={isError}
+                            error={error}
                         />
                     </div>
                 )
