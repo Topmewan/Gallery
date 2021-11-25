@@ -6,6 +6,7 @@ import {useState} from "react";
 import styles from './App.module.css';
 import Loader from "../../Components/Loader/Loader";
 import ImageList from "../../Components/ImageList/ImageList";
+import Modal from "../Modal/Modal";
 
 
 const App = () => {
@@ -42,11 +43,12 @@ const App = () => {
                             />
                         ))}
                     </div>
-                )
-
-            }
-
-
+                )}
+            <Modal
+                id={id}
+                closeModal={closeModal}
+                isModal={isModal}
+            />
         </>
     );
 };
