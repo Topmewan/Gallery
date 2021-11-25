@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 768px){
     .modal__img{
-        height: 400px;
+        height: 500px;
         border-radius: 10px 10px 0 0;
     }
 }

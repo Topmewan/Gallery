@@ -11,7 +11,7 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 768px){
     .wrapper__modal{
         display: block;
         height: auto;
