@@ -1,0 +1,25 @@
+.form{
+    width: 90%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.textarea{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: auto;
+    color: #fff;
+    background-color: darkslateblue;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

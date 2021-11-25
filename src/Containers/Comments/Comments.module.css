@@ -1,0 +1,23 @@
+.modal__comments{
+    width: 100%;
+    height: 500px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    color: #141414;
+}
+
+.modal__comments h1{
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+
+}
+
+.comments__wrapper{
+    width: 90%;
+    overflow: auto;
+}
