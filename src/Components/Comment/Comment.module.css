@@ -5,9 +5,17 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid darkslateblue;
+
+}
+
+.comment__message{
+    width: 60%;
+    margin-right: 10px;
+    overflow-wrap: break-word;
 }
 
 .item__delete{
+    width: 65px;
     height: 25px;
     border: none;
     color: white;

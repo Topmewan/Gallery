@@ -3,8 +3,8 @@ import styles from './Comment.module.css';
 const Comment = ({comment,removeComment}) => {
     return (
         <div className={styles.item__comment}>
-            <div>
-                {comment.message}
+            <div className={styles.comment__message}>
+                <p>{comment.message}</p>
             </div>
             <button
                 className={styles.item__delete}
